@@ -1,0 +1,199 @@
+.top-image {
+  width: auto;
+  height: 200px;
+  background-color: crimson;
+}
+.login-heading-mobile {
+  padding-left: 20px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 24px;
+}
+.continue-text-mobile {
+  padding-left: 20px;
+  font-family: Arial, sans-serif;
+  font-weight: 300;
+  margin-top: 3px;
+  font-size: 21px;
+}
+.input-holder {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: auto;
+  background-color: transparent;
+  margin-top: 30px;
+  display: flex;
+  height: 30px;
+}
+.code-holder {
+  font-weight: bold;
+  height: 100%;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+}
+.phone-input {
+  box-shadow: none;
+  outline: 0 !important;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: grey;
+  font-size: 18px;
+}
+.phone-input:focus {
+  outline: 0 !important;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #00bfa6;
+}
+.test {
+  position: absolute;
+  bottom: 20px;
+}
+.pin-input:focus {
+  outline: 0 !important;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #00bfa6;
+}
+.pin-input {
+  outline: 0 !important;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: grey;
+}
+.continue-button {
+  width: calc(100%-2px);
+  height: 50px;
+  background-color: #00bfa6;
+  border: none;
+  box-shadow: none;
+  color: white;
+  outline: none;
+  margin-top: 30px;
+  font-size: 17px;
+}
+@media screen and (min-width: 600px) {
+  .center-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 450px;
+    box-shadow: 0 12px 15px rgba(15 15 15 /15%);
+  }
+  .pin-input:focus {
+    outline: 0 !important;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #00bfa6;
+  }
+  .pin-input {
+    outline: 0 !important;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: grey;
+  }
+  .image-holder {
+    width: auto;
+    height: 150px;
+    background-color: yellow;
+  }
+  .phone-icon-holder {
+    font-weight: bold;
+    margin-right: 2px;
+  }
+  .login-heading {
+    padding-left: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 19px;
+  }
+  .continue {
+    padding-left: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  .continue-button {
+    width: 360px;
+    height: 36px;
+    background-color: #00bfa6;
+    border: none;
+    box-shadow: none;
+    color: white;
+    outline: none;
+  }
+  .toast-holder {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+  }
+  .toast {
+    width: 360px;
+    height: 35px;
+    background-color: #fe2c54;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    padding-left: 20px;
+  }
+  .btn-holder {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .continue-button-holder {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .phone-input {
+    width: 320px;
+    box-shadow: none;
+    outline: 0 !important;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: grey;
+    font-size: 15px;
+  }
+  .phone-input:focus {
+    outline: 0 !important;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #00bfa6;
+  }
+}

@@ -1,0 +1,93 @@
+.appbar {
+  width: auto;
+  height: 60px;
+  background-color: #090c22;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-bar-holder {
+  width: auto;
+  height: 100px;
+  background-color: #090c22;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search {
+  width: 90%;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  font-size: 17px;
+}
+.drawer-icon-holder {
+  height: 60px;
+  width: 60px;
+  background-color: transparent;
+  color: #00bfa6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tutorial-icon-holder {
+  height: 60px;
+  width: 60px;
+  background-color: transparent;
+  display: flex;
+  color: #00bfa6;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 600px) {
+  .search {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .appbar {
+    width: auto;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+  }
+  .drawer-icon-holder {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tutorial-icon-holder {
+    height: 40px;
+    background-color: transparent;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .search {
+    width: 600px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    font-size: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .search-icon {
+    height: auto;
+    background-color: #00bfa6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .search {
+    width: 600px;
+  }
+}
